@@ -1,0 +1,130 @@
+.heading{
+  background-color: #6E48AB;
+  width: 350px;
+ 
+  height:50px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-image: url('pettern_1.png');
+  padding: 20px 0 30px 0;
+  height: 100%;
+} 
+.box{
+	 background-color: #6E48AB;
+  	width: 350px;
+  	height:50px;
+  	position: fixed;
+  	top: 28%;
+    left: 40%;
+    border-radius: 15px;
+    box-shadow: -1px -1px 15px 6px rgba(224,221,224,1);
+ 
+}
+.innerbox{
+	background-color: #6E48AB;
+  	width: 350px;
+  	height:50px;
+  	position: fixed;
+  	top: 35%;
+    left: 40%;
+    border-radius: 15px;
+    height: 311;
+    box-shadow: -1px -1px 15px 6px rgba(224,221,224,1);
+ 
+}
+.col{
+
+	background-color: #FFFFFF;
+  	width: 350px;
+  	height:50px;
+  	position: fixed;
+  	top: 40%;
+    left: 40%;
+    height: 311;
+    box-shadow: -9px -9px 77px -13px rgba(148,148,148,1);
+    border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.form{
+	width: 500px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    
+}
+input[type=submit] {
+    background-color: #6D47AA;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 47%;
+    height: 40px;
+  	padding: 7px 18px;
+  	margin-top: 6px;
+  	margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	font-size: 16px;
+  	border: 1px;
+}
+.typetext{
+  width: 30%;
+  margin: auto;
+  padding: 7px 18px;
+  margin-top: 6px;
+}
+.label{
+
+	    box-sizing: border-box;
+    padding-right: 27px;
+        padding-left: 29px;
+}
+.labelforselect{box-sizing: border-box;
+    padding-right: 84px;
+        padding-left: 29px;}
+
+.select{
+  width: 20%;
+  margin: auto;
+  padding: 7px 18px;
+  margin-top: 6px;
+}
+.labeloutput{
+	 box-sizing: border-box;
+    padding-right: 27px;
+          padding-left: 91px;
+}
+.text{
+	
+	 font-size: 29px;
+    font-style: normal;
+    color: white;
+    padding-left: 77px;
+    padding-top: 10px;
+}
+.textupper{
+	font-size: 29px;
+    font-style: normal;
+    color: white;
+    padding-left: 77px;
+    padding-top: 10px;
+}
